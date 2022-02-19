@@ -1,4 +1,5 @@
 import React from "react";
+import DateandTime from "./DateandTime";
 import './style/ToDoList.css'
 
 function ToDoList(){
@@ -6,7 +7,7 @@ function ToDoList(){
   return(
         <>
         <div className="container">
-          
+          <DateandTime/>
         </div>
         </>
     );
