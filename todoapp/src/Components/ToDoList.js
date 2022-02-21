@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 import DateandTime from "./DateandTime";
 import List from "./List";
 
@@ -16,8 +17,8 @@ function ToDoList(){
         <>
         <div className="container">
          <DateandTime/>
-         <List/>
-         
+         <List/><br/>
+         <footer><Button/></footer>
         </div>
         </>
     );
