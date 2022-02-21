@@ -19,7 +19,7 @@ function ListItems() {
           {data.map((user) => (
             <div className="user">
             <div>{user.task}</div>
-            <input type="radio"/>
+            <input type="radio" className='radiobtn'/>
             </div>
           ))}
     
