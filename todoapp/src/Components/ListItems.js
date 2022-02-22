@@ -8,7 +8,11 @@ function ListItems() {
         { id: 2, task: "read newspaper and books" },
     
         { id: 3, task: "go for adventure" },
-      
+        { id: 1, task: "buy a tshirt" },
+    
+        { id: 2, task: "read newspaper and books" },
+    
+        { id: 3, task: "go for adventure" }
       ];
     
     
